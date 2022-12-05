@@ -56,6 +56,13 @@ Para executar qualquer uma das soluções, deve-se ir até a pasta do Problema, 
 
 ``` diff output.txt expected_output.txt```
 
+## Extras
 
+Algumas soluções foram implementadas em duas linguagens, em C++ e em Python3.
+Para executar as implementações realizadas em Python, é necessário ter o Python3 instalado e então rodar o comando
+```
+python3 answer.py < input.txt > output.txt
+```
+E então executar o ``` diff output.txt expected_output.txt```, para verificar as respostas.
 
-
+Lembrando que a forma como o python é chamado depende de como ele foi configurado em cada máquina, podendo existir variações.
