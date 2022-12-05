@@ -1,44 +1,60 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Grafos2_Dijkstra-Kruskall-SCC
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 9<br>
+**Conteúdo da Disciplina**: Grafos 2<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 16/0141842  |  Philipe Rosa Serafim |
+| 16/0143403  |   Renan Welz Schadt   |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Para o segundo trabalho da disciplina, nós optamos por submeter exercícios de juízes onlines.
+As questões foram selecionadas buscando abranger alguns dos conteúdos abordados no respectivo módulo.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
-## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+## Execução
+**Linguagem**: C++<br>
+Para compilar os códigos, é necessário ter um compilador de C++ (gpp, g++, etc) previamente instalado.
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Os problemas estão organizados seguindo um padrão, o comando para compilar e executar os códigos será o mesmo para todos os problemas, mas para isso faz-se necessário explicar a organização das pastas, que seguem o seguinte formado:
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+```
+ - Pasta raiz
+   - Conteudo
+      - Problema
+         - problem
+         - submission
+         - answer
+         - input
+         - expected_output
+```
+
+ - Para ler o problema, deve-se abrir o arquivo no caminho `Conteudo\Problema\problem`.
+ Por exemplo, para verificar o problema de *Highest Paid Tool*, deve-se navegar até `Grafos2_Dijkstra-Kruskall-SCC/Dijkstra/HighestPaidTool/problem.png`
+ 
+ - A solução está presente no `Conteudo\Problema\answer`. 
+ Por exemplo, para verificar o código, deve-se navegar até `Grafos2_Dijkstra-Kruskall-SCC/Dijkstra/HighestPaidTool/answer.cpp`
+ 
+## Executando
+
+Para executar qualquer uma das soluções, deve-se ir até a pasta do Problema, de acordo com a especificação anterior.
+
+### Compilando
+
+```c++ problem.cpp -o prog ```
+
+### Executando
+
+``` ./prog < input.txt > output.txt ```
+
+### Comparando respostas
+
+``` diff output.txt expected_output.txt```
 
 
 
